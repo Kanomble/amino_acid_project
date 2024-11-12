@@ -1,7 +1,7 @@
 # Amino Acid Project
 ## Analysis of Curvibacter sp. AEP1-3  Growth Media
 This project aims to analyze the effect of different amino acid compositions
-on the growth behavior of the \beta-*proteobacteria* and facultative symbiont of *Hydra vulgaris*, *Curvibacter* sp. AEP1-3.
+on the growth behavior of the $\beta$-*proteobacteria* and facultative symbiont of *Hydra vulgaris*, *Curvibacter* sp. AEP1-3.
 
 ## Installation
 Download the repository and decompress all data files.
