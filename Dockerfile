@@ -71,4 +71,4 @@ RUN apt-get autoremove --purge --yes && apt-get clean && rm -rf /var/lib/apt/lis
 #open port for jupyter notebook
 EXPOSE 8888
 
-CMD ["jupyter", "nbclassic", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
+CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]

@@ -1,18 +1,12 @@
-# eps_project
-Analysis of Curvibacter sp. AEP1-3  Growth Media
+# Amino Acid Project
+## Analysis of Curvibacter sp. AEP1-3  Growth Media
+This project aims to analyze the effect of different amino acid compositions
+on the growth behavior of the \beta-*proteobacteria* and facultative symbiont of *Hydra vulgaris*, *Curvibacter* sp. AEP1-3.
 
 ## Installation
-
+Download the repository and decompress all data files.
 Build from Dockerfile
 ```bash
 docker build -t amino_acid_project:1.0 .
 docker run -dt --name amino_acid_project -v ${PWD}:/amino_acid_project/applications -p 127.0.0.1:8888:8888/tcp amino_acid_project:1.0
-```
-
-For prokka extension
-```bash
-docker pull staphb/prokka:latest
-cd ../data/curvibacter_assemblies/nucleotide_fasta_files/
-docker run -dt --name prokka -v ${PWD}:/amino_acid_project/ staphb/prokka:latest
-docker exec -it prokka /bin/bash
 ```
